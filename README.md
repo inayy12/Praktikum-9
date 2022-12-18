@@ -31,7 +31,7 @@ karena else hanya bisa dijalankan ketika try adalah True.
 munculnya Error karena r adalah read - membuka file untuk membaca, eror jika tidak ada. Dsini ingin membaca file bukan menulis maka dibawahnya ``fh = oprn("testfile", "r")`` tambahkan ``print(fh.readline())`` dan fh.write di hapus. Setelah dijalankan try dan else ditampilkan.
 
 ## Penjelasan ke 4
-![gambar](foto/iny4.jpeg)
+![gambar](foto/iny5.jpeg)
 
 Menghasilkan output:
 
@@ -40,7 +40,7 @@ Menghasilkan output:
 Output yang dihasilkan ini tidak lah error, hal ini dikarnakan finally yang dijalankan ketika try dan excep. Dan berhasil dibuat filenya setelah dijankan.
 
 ## Penjelasan ke 5
-![gambar](foto/iny5.jpeg)
+![gambar](foto/iny4.jpeg)
 
 etika dijalankan, maka muncul error. Hapus ``#!/usr/bin/python`` dan di ``except ValueError, Argument:`` ganti koma dengan as seperti ``except ValueError as Argument:`` agar tidak error. Jika dijalankan akan muncul error lagi.
 
